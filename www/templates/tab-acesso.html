@@ -1,0 +1,25 @@
+<ion-view view-title="Acesso">
+    <ion-content class="padding">
+        <div class="centralizar">
+            <h4>Informe seus dados pessoais</h4>
+        </div>
+        <form ng-action="">
+            <div class="list list-inset">
+
+                <label class="item item-input">
+                          <input type="text" ng-model="Cliente.Nome"  placeholder="Nome">
+                        </label>
+                <label class="item item-input">
+                          <input type="text" ng-model="Cliente.Email" placeholder="Email">
+                        </label>
+                <label class="item item-input">
+                          <input type="text" ng-model="Cliente.Telefone" placeholder="Telefone">
+                        </label>
+
+                <div class="">
+                    <button class="button button-block button-calm" ng-click="Cliente.Acessar()"> Acessar</button>
+                </div>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>
